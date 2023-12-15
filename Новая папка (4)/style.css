@@ -1,0 +1,78 @@
+body{
+    width: 80%;
+   
+}
+.container{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.box {
+    display: flex;
+    justify-items: center;
+    gap: 30px;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.auctions {
+    width: 312px;
+    height: 470px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1.5px solid #E6E6E6;
+    background: #FFF;
+}
+
+img {
+    width: 312px;
+    height: 280px;
+    flex-shrink: 0;
+    border-radius: 16px 16px 0px 0px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+p {
+    color: var(--SystemGray-01-Light, #8E8E93);
+    font-family: Rotunda;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 100% */
+}
+
+h3 {
+    color: #000;
+    font-family: Rotunda;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 120% */
+}
+
+.mar {
+    margin: 20px;
+
+}
+
+.current {
+    margin-top: 40px;
+}
+
+.mar1 {
+    margin: 20px;
+}
+
+h1 {
+    color: #000;
+    font-family: Rotunda;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    /* 128.571% */
+}
